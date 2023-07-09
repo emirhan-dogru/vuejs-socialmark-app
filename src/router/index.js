@@ -16,6 +16,11 @@ const routes = [
     path: "/register",
     component: () => import("@/views/Register_view"),
   },
+  {
+    name: "NewBookmarkPage",
+    path: "/new",
+    component: () => import("@/views/NewBookmark_view"),
+  },
 ];
 
 export default createRouter({
