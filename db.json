@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "username": "eemirhandogru",
+      "fullname": "Emirhan",
+      "password": "U2FsdGVkX1/o4aV0x2vw75/c6jZhiaBLWf9FckT6uSY=",
+      "id": 1
+    },
+    {
+      "username": "deneme",
+      "fullname": "deneem",
+      "password": "U2FsdGVkX1+84xBb1KLWFsynkWVPJw81KP7T1Ff53S0=",
+      "id": 2
+    },
+    {
+      "username": "deeneme",
+      "fullname": "denem",
+      "password": "U2FsdGVkX186ETN8zGhw/CduqNBpxdDGOR+8tbGxAE4=",
+      "id": 3
+    },
+    {
+      "username": "asda",
+      "fullname": "asda",
+      "password": "U2FsdGVkX18oJcdwDY36DBV3FAsS/xddd7wBsnb1ZEA=",
+      "id": 4
+    }
+  ],
+  "bookmarks": [],
+  "categories": []
+}
