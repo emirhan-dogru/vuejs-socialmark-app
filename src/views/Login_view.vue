@@ -31,7 +31,12 @@ export default {
       this.$appAxios
         .get(`/users?username=${this.userData.username}&password=${cryptedPassword}`)
         .then((lgn_res) => {
-          console.log("lgn_res", lgn_res);
+          if (lgn_res?.data?.length > 0) {
+            this.$store.commit("setUser", lgn_res?.data[0]);
+            this.$router.push({ name: "homePage" });
+          } else {
+            alert("Böyle bir kullanıcı bulunamadı...");
+          }
         })
         .catch((e) => console.log(e));
       //.finally(() => (this.loader = false));
