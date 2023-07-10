@@ -27,8 +27,8 @@ export default {
   methods: {
     onSave() {
       const password = this.userData.password;
-      const key = "bookmark123!123";
-      const cryptedPassword = cryptoJs.AES.encrypt(password, key).toString();
+      const key = this.$store.getters._saltKey;
+      const cryptedPassword = cryptoJs.HmacSHA1(password, key).toString();
       this.$appAxios.post("/users", { ...this.userData, password: cryptedPassword }).then((res) => {
         if (res.statusText === "Created") {
           this.$router.push({ name: "homePage" });
