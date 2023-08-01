@@ -4,7 +4,14 @@
       "username": "eemirhandogru",
       "fullname": "Emirhan",
       "password": "761006085cf7edf174259e4f7616e1ac3f73e19c",
-      "id": 1
+      "id": 1,
+      "likes": [
+        1,
+        2
+      ],
+      "bookmarks": [
+        3
+      ]
     },
     {
       "username": "deneme",
