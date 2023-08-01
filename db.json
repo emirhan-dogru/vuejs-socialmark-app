@@ -3,7 +3,7 @@
     {
       "username": "eemirhandogru",
       "fullname": "Emirhan",
-      "password": "0751098478b17203b4a6813cd9a69950a390ac15",
+      "password": "761006085cf7edf174259e4f7616e1ac3f73e19c",
       "id": 1
     },
     {
@@ -25,6 +25,51 @@
       "id": 4
     }
   ],
-  "bookmarks": [],
-  "categories": []
+  "bookmarks": [
+    {
+      "title": "Emirhan",
+      "url": "https://www.emirhandogru.com",
+      "categoryId": 1,
+      "description": "sdaddasassdasda",
+      "userId": 1,
+      "created_at": "2023-07-12T12:37:54.500Z",
+      "id": 1
+    },
+    {
+      "title": "asd",
+      "url": "https://google.com",
+      "categoryId": 3,
+      "description": "addasasd",
+      "userId": 1,
+      "created_at": "2023-07-12T12:47:05.511Z",
+      "id": 2
+    },
+    {
+      "title": "deneem",
+      "url": "https://google.com",
+      "categoryId": 1,
+      "description": "asdsadsad",
+      "userId": 1,
+      "created_at": "2023-07-31T20:08:00.574Z",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vue.js"
+    },
+    {
+      "id": 2,
+      "name": "React.js"
+    },
+    {
+      "id": 3,
+      "name": "Angular.js"
+    },
+    {
+      "id": 4,
+      "name": "Swelt.js"
+    }
+  ]
 }
